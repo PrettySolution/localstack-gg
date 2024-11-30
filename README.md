@@ -16,5 +16,5 @@ localstack start -d
 
 
 cd in git@github.com:PrettySolution/sam-app-java11.git
-samlocal deploy
+samlocal build && samlocal deploy
 ```
